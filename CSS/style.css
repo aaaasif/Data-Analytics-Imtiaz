@@ -48,8 +48,8 @@ h2 {
   line-height: 3.2rem;
 }
 
-.btn, .trial-btn, .toggle-bar {
-    -webkit-tap-highlight-color: none;
+li, .btn, .trial-btn, .toggle-bar {
+    -webkit-tap-highlight-color: transparent;
 }
 
 .p-15 {
@@ -186,7 +186,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    top: 60px;
+    top: 80px;
     right: -100%;
     transition: 0.3s;
     background: linear-gradient(
@@ -208,7 +208,7 @@ h2 {
   }
 
   .nav-elements.active {
-    right: 60px;
+    right: 20px;
   }
 
   .nav-btn {
