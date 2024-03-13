@@ -64,7 +64,7 @@ li, .btn, .trial-btn, .toggle-bar {
   margin: auto;
 }
 
-.btn {
+.customize-btn {
   padding: 8px 25px;
   border-radius: 100vmax;
   border: 2px solid blue;
@@ -79,16 +79,16 @@ li, .btn, .trial-btn, .toggle-bar {
   position: relative;
 }
 
-.btn:active {
+.customize-btn:active {
   transform: translateY(3px);
 }
 
-.btn:hover {
+.customize-btn:hover {
   color: #7a5b5b;
   z-index: 0;
 }
 
-.btn::after {
+.customize-btn::after {
   content: "";
   position: absolute;
   top: 0;
@@ -103,7 +103,7 @@ li, .btn, .trial-btn, .toggle-bar {
   transition: transform 0.4s, opacity 0.4s, background-color 0.4s;
 }
 
-.btn:hover::after {
+.customize-btn:hover::after {
   opacity: 1;
   transform-origin: 100px 100px;
   transform: scale(1) translate(-13px, -75px);
