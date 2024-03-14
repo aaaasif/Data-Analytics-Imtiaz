@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} 
 .bussnes_heading{
     font-size: 18px;
     display: flex;
@@ -8,13 +16,18 @@
 .bussness_img{
     display: flex;
     height: 500px;
+    width: 100%;
+}
+.img{
+    width: 60%;
+    height: 200px;
 }
 
 input[type=checkbox] {
     display: none;
   }
   
-  .container img {
+  .img {
     margin: 100px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
@@ -24,3 +37,4 @@ input[type=checkbox] {
     transform: scale(2);
     cursor: zoom-out;
   }
+
