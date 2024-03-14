@@ -15,26 +15,20 @@
 }
 .bussness_img{
     display: flex;
-    height: 500px;
+
     width: 100%;
+    justify-content: center;
 }
 .img{
-    width: 60%;
+    width: 90%;
     height: 200px;
-}
+    margin: 10px;
 
-input[type=checkbox] {
-    display: none;
-  }
-  
-  .img {
-    margin: 100px;
+}
+.img {
+
     transition: transform 0.25s ease;
     cursor: zoom-in;
   }
   
-  input[type=checkbox]:checked ~ label > img {
-    transform: scale(2);
-    cursor: zoom-out;
-  }
 
