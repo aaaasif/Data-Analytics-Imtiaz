@@ -5,3 +5,7 @@
     padding-top: 20px;
     font-weight: normal;
 }
+.bussness_img{
+    display: flex;
+    height: 500px;
+}
