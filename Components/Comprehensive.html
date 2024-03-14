@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Three Image Cards with Hover Zoom</title>
+<style>
+    /* Container for the image cards */
+    .image-card-container {
+        display: flex; /* Use flexbox for layout */
+        flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+        justify-content: center; /* Center-align cards horizontally */
+        gap: 20px; /* Space between cards */
+    }
+
+    /* Individual image cards */
+    .image-card {
+        flex: 0 0 calc(33.33% - 20px); /* Each card takes up one-third of the container width with some spacing */
+        max-width: calc(33.33% - 20px); /* Ensure cards don't exceed one-third of the container width */
+        border: 1px solid #ccc; /* Border for the card */
+        border-radius: 10px; /* Rounded corners for the card */
+        overflow: hidden; /* Hides any content that overflows the card */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the card */
+    }
+
+    /* Image inside the card */
+    .image-card img {
+        width: 100%; /* Ensures the image takes full width of its container */
+        height: auto; /* Allows the image to scale proportionally */
+        display: block; /* Ensures the image behaves as a block element */
+        transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    }
+
+    /* Zoom effect when hovering over the image */
+    .image-card:hover img {
+        transform: scale(1.1); /* Zoom in effect */
+    }
+
+    /* Text content inside the card */
+    .image-card .card-content {
+        padding: 20px; /* Adds padding inside the card */
+    }
+
+    /* Title and description text */
+    .image-card h2,
+    .image-card p {
+        margin: 0; /* Removes default margin */
+    }
+</style>
+</head>
+<body>
+
+<!-- Image Card Container -->
+<div class="image-card-container">
+    <!-- First Image Card -->
+    <div class="image-card">
+        <!-- Image -->
+        <img src="./../Business/1/Capture3.PNG" alt="Placeholder Image 1">
+
+        <!-- Card Content -->
+        <div class="card-content">
+            <!-- Title -->
+            <h2>Title 1</h2>
+            <!-- Description -->
+            <p>Description goes here for card 1.</p>
+        </div>
+    </div>
+
+    <!-- Second Image Card -->
+    <div class="image-card">
+        <!-- Image -->
+        <img src="./../Business/1/Capture.PNG" alt="Placeholder Image 2">
+
+        <!-- Card Content -->
+        <div class="card-content">
+            <!-- Title -->
+            <h2>Title 2</h2>
+            <!-- Description -->
+            <p>Description goes here for card 2.</p>
+        </div>
+    </div>
+
+    <!-- Third Image Card -->
+    <div class="image-card">
+        <!-- Image -->
+        <img src="./../Business/1/Capture2.PNG" alt="Placeholder Image 3">
+
+        <!-- Card Content -->
+        <div class="card-content">
+            <!-- Title -->
+            <h2>Title 3</h2>
+            <!-- Description -->
+            <p>Description goes here for card 3.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
