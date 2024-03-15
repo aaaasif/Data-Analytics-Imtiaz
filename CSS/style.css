@@ -773,3 +773,9 @@ li, .btn, .trial-btn, .toggle-bar {
     padding-bottom: 100px;
   }
 }
+.copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight:normal;
+}
