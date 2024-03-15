@@ -7,12 +7,19 @@
   font-family: "Poppins", sans-serif;
 } 
 .bussnes_heading{
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
     font-weight: normal;
-    padding-bottom: 20px;
+    padding-bottom: 20px;font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 10px;
+    color: rgb(72, 79, 86);
+    
+    
 }
 .bussness_img{
     display: flex;
