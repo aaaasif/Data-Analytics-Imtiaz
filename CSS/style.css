@@ -6,11 +6,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.bussnes_heading{
+  font-weight: bold;
+  padding: 20px;
+  color: #000000;
+}
+.bussnes_heading:hover{
+  color: red;
+}
 html {
   scroll-behavior: smooth;
 }
-
+.nav-logo{
+  height: 100px;
+  padding-top: 5px;
+}
 .wrapper-container {
   overflow-x: hidden;
   background-color: #ffffff;
